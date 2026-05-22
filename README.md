@@ -1,4 +1,23 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Poe1jnBT)
+# TS_AI — Testing and Security of AI Systems
+
+TS_AI is a project focused on testing the robustness, diversity, and validity of AI systems through dataset filtering, mutation-based input generation, and validity analysis. The current implementation centers on MNIST models and supports workflows for generating random and hill-climbing mutations, then analyzing the resulting adversarial or misclassified examples.
+
+## Overview
+
+The project provides a practical framework for evaluating how machine learning models behave under controlled perturbations. It includes tools to filter valid seed inputs, generate mutated samples, assess mutation diversity, and verify whether generated examples remain realistic using a Variational Autoencoder (VAE).
+
+## Features
+
+- Dataset filtering for reliable seed inputs
+- Random mutation generation for baseline robustness testing
+- Hill-climbing mutation generation for directed adversarial search
+- Diversity evaluation based on image features
+- Validity checking with a pre-trained VAE
+- Docker-based setup for reproducible development
+
+## Project Goals
+
+The main goal of this repository is to study how AI systems respond to modified inputs and to evaluate the quality of those modifications. This includes not only whether a model fails, but also whether the generated inputs are diverse and still represent plausible data.
 
 # 1. Setup
 
