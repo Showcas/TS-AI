@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+*.svg
+models
+*.png
+vae_reconstructions/
+
+.pytest_cache
+data/
+.pt
+
+filtered_svgs/
+
+mutations/

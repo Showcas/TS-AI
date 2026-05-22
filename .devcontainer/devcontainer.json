@@ -1,0 +1,12 @@
+{
+    "name": "tig",
+    "image": "dockercontainervm/model-based-tig:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "remoteUser": "user"
+}
