@@ -1,6 +1,6 @@
 # TS-AI — Testing and Security of AI Systems
 
-TS_AI is a project focused on testing the robustness, diversity, and validity of AI systems through dataset filtering, mutation-based input generation, and validity analysis. The current implementation centers on MNIST models and supports workflows for generating random and hill-climbing mutations, then analyzing the resulting adversarial or misclassified examples.
+TS-AI is a project focused on testing the robustness, diversity, and validity of AI systems through dataset filtering, mutation-based input generation, and validity analysis. The current implementation centers on MNIST models and supports workflows for generating random and hill-climbing mutations, then analyzing the resulting adversarial or misclassified examples.
 
 ## Overview
 
